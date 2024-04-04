@@ -1,0 +1,127 @@
+@import "../../css/global.css";
+@import "../../css/font.css";
+
+*{
+    margin: 0 auto;
+    font-family: 'Ubuntu' ;
+}
+.header__main{
+    width: 192rem;
+    height: 60rem;
+    padding-left: 40rem;
+    padding-top: 15rem;
+    
+    
+}
+  
+.header__main h1{
+    font-size: 7rem;
+    font-weight: 900;
+    font-family: 'Ubuntu' sans-serif;
+  }
+  
+.header__main h4{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.441);
+    margin-top: 2rem;
+}
+  
+.header-all{
+    width: 190rem;
+    height: 60rem;
+    background-image: url(./images/image-cover.png);
+    background-color: #F4F5F6;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+.main-container{
+    width: 123rem;
+
+}
+.main-container h1{
+    margin-top: 12rem;
+    font-size: 4.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+.main-container ul{
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
+.main-container a{
+    width: 20rem;
+    height: 4rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+    color: #9A9CA5;
+    transition: 0.2s;
+    margin-top: 0.2rem;
+    &:hover{
+        border: 1px solid #FF5A30;
+        border-radius: 0.4rem;
+        color: #FF5A30;
+        box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #ff593054;
+    }
+}
+.main-container img{
+    width: 60rem;
+    height: 30rem;
+}
+.main-container__tex{
+    display: flex;
+    margin-top: 10rem;
+}
+.main-container__text{
+    width: 60rem;
+    height: 48rem;
+    margin-left: 3rem;
+    box-shadow: 0px 4px 4px -4px #1E212C08;
+
+    box-shadow: 0px 12px 10px -6px #9A9CA50A;
+
+    box-shadow: 0px 30px 24px -10px #9A9CA50D;
+
+    box-shadow: 0px 80px 80px -20px #9A9CA514;
+
+    h2{
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-top: 2rem;
+        cursor: pointer;
+        &:hover{
+            color: #FF5A30;
+        }
+    }
+    h3{
+        font-size: 14;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        color: #787A80;
+    }
+    h4{
+        font-size: 1.6rem;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        color: #424551;
+        max-width: 58rem;
+    }
+}
+
+.h123{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+#img123{
+    width: 3rem;
+    height: 2.4rem;
+}
