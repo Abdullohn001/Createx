@@ -1,0 +1,77 @@
+@import "../../css/global.css";
+@import "../../css/font.css";
+@import url(../../css/base.css);
+@import "../../css/variable.css";
+
+.header-all{
+    margin: auto;
+    width: 192rem;
+    height: 60rem;
+    background-image: url(./images/image-cover.png);
+    background-color: #F4F5F6;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+
+  .text{
+    margin-top: 20rem;
+    & h1{
+        font-size: 7rem;
+    }
+    & h3{
+        font-size: 2rem;
+        color: #787A80;
+        max-width: 60rem;
+    }
+  }
+
+.container{
+    & h1{
+        font-size: 4.6rem;
+    }
+    & h3{
+        font-size: 1.8rem;
+        color: var(--grey-color);
+    }
+}
+
+  .main-img{
+    display: flex;
+    height: 50rem;
+    margin-top: 6rem;
+  }
+
+  .inp-container{
+    margin-top: 6rem;
+    & input{
+        width: 28.5rem;
+        border: none;
+    }
+  }
+
+  .main{
+    text-align: center;
+    margin-top: 10rem;
+  }
+
+  .main-flex{
+    text-align: left;
+    display: flex;
+    & hr{
+        height: 25.4rem;
+        width: 0;
+    }
+  }
+
+  .main-text{
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+  .tex{
+    width: 50rem;
+    text-align: center;
+    margin-left: 25rem;
+    margin-top: 5rem;
+
+  }

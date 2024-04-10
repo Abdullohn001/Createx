@@ -7,7 +7,7 @@ ol {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 85px;
+  margin-top: 85px;
 }
 .footer-container{
   width: 192rem;
