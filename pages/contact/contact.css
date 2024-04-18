@@ -57,6 +57,7 @@
   .main-flex{
     text-align: left;
     display: flex;
+    margin-top: 5rem;
     & hr{
         height: 25.4rem;
         width: 0;
@@ -69,9 +70,9 @@
   }
 
   .tex{
-    width: 50rem;
+    width: 35rem;
     text-align: center;
-    margin-left: 25rem;
-    margin-top: 5rem;
 
+    margin-top: 10rem;
+    flex-shrink: 0;
   }
