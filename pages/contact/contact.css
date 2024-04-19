@@ -1,6 +1,6 @@
 @import "../../css/global.css";
 @import "../../css/font.css";
-@import url(../../css/base.css);
+@import "../../css/base.css";
 @import "../../css/variable.css";
 
 .header-all{
@@ -11,6 +11,7 @@
     background-color: #F4F5F6;
     background-repeat: no-repeat;
     background-position: right;
+    flex-shrink: 0;
   }
 
   .text{
@@ -76,3 +77,241 @@
     margin-top: 10rem;
     flex-shrink: 0;
   }
+
+.contact__us {
+  display: flex;
+  gap: 13.5rem;
+  align-items: center;
+  margin-top: 10rem;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  & textarea{
+    height: 16rem;
+    width: 65rem;
+    margin-left: 5rem;
+  }
+}
+
+.application__container__form-input{
+  width: 30rem;
+  height: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.application__container__form {
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+}
+
+.application__container__form-input {
+  width: 285px;
+  text-align: left;
+}
+
+.radio-span-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.radio {
+  accent-color: #ff5a30;
+}
+
+.radiospan {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #424551;
+}
+/* label {
+  display: inline-block;
+} */
+.input-wrappers {
+  display: flex;
+  /* align-items: center; */
+  gap: 3rem;
+}
+
+.radio-input {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 2.4rem;
+}
+
+textarea {
+  width: 600px;
+  margin-bottom: 2rem;
+}
+.application__container__form-input-checbox {
+  width: 600px;
+}
+
+.application-link {
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 3.25;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  color: #fff;
+  width: 210px;
+}
+
+select {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #424551;
+}
+
+.offices {
+  background-color: #f4f5f6;
+  margin-top: 10rem;
+}
+.offices__container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 8rem;
+  padding-bottom: 9.5rem;
+  padding-left: 34.5rem;
+  padding-right: 34.5rem;
+}
+
+.offices__container-title {
+  margin-bottom: 2.4rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4.6rem;
+  font-weight: 700;
+  line-height: 1.27;
+  text-align: center;
+  color: #1e212c;
+}
+.offices__container-text {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #787a80;
+  margin-bottom: 6rem;
+}
+.offices__cards {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+.card {
+  width: 250px;
+}
+.card-title {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: left;
+  color: #1e212c;
+  margin-bottom: 2.4rem;
+}
+.card-location {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+  width: 250px;
+  margin-bottom: 0.4rem;
+}
+.card-map {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #ff5a30;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.card__item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.card__item-span {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #787a80;
+}
+.card__item-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: left;
+  color: #1e212c;
+}
+.offices-img {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.offices__container h2 {
+  margin-bottom: 4rem;
+}
+
+.offices__icons {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
+}
+.icon {
+ font-size: 3.2rem;
+ color: #787A80;
+cursor: pointer;
+transition: 0.3s;
+
+}
+.whatsup:hover{
+  color: #075e54;
+}
+.mesaanger:hover{
+  color: #00b2ff;
+
+}
+.facebook:hover{
+  color: #1877f2;
+}
+.twitter:hover{
+  color: #1da1f2;
+}
+.youtube:hover{
+  color: #ff0000;
+}
